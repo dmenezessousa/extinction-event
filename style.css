@@ -15,9 +15,12 @@ img {
   width: 162px;
   transition: 2s width;
 }
-
+ol li {
+  cursor: pointer;
+}
 ul li {
   transition: 2s opacity;
+  cursor: pointer;
 }
 
 .feature, header {
@@ -33,3 +36,10 @@ ul li {
 #burn * {
   margin: 5px;
 }
+
+#row {
+  cursor: pointer;
+}
+/* .item item-clicked {
+  text-decoration:'line-through';
+} */
